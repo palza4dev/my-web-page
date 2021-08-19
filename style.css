@@ -8,8 +8,6 @@
     }
 }
 
-
-
 body {
     padding: 0px 5% 0px 5%;
     background-color: black;
@@ -41,6 +39,7 @@ header {
 
 #top-head a {
     text-decoration: none;
+    color:white;
 }
 
 #top-head a:visited {
@@ -60,11 +59,9 @@ header {
 }
 
 #top-nav ul li {
-    font-size: 1.5rem;
-    list-style: none;
+    font-size: 1.2rem;
     line-height: 40px;
 }
-
 
 #top-nav a {
     text-decoration: none;
