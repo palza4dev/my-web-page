@@ -2,6 +2,13 @@
 
 @import "reset.css";
 
+@media screen and (max-width: 515px) {
+    html {
+        font-size: 10px;       
+    }
+}
+
+
 
 body {
     padding: 0px 5% 0px 5%;
@@ -28,7 +35,7 @@ header {
     height: auto;
     width: 100%;
     margin: 20px 0 10px 0;
-    font-size: 2.3vw;
+    font-size: 1.8rem;
     text-align: center;
 }
 
@@ -53,7 +60,7 @@ header {
 }
 
 #top-nav ul li {
-    font-size: 1.8vw;
+    font-size: 1.5rem;
     list-style: none;
     line-height: 40px;
 }
@@ -81,15 +88,15 @@ section {
 }
 
 h1 {
-    font-size: 4.2vw;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: 2rem;
     color:whitesmoke;
 }
 p {
-    font-size: 1.5vw;
+    font-size: 1.3rem;
     color: #A1A1A6;
 }
 
@@ -100,20 +107,26 @@ p {
 }
 
 .section-img img{
-    max-width: 30%;
+    max-width: 33%;
     height: auto;
     margin-top: 30px;
     border: 3px solid white;
     border-radius: 20px;
 }
 
+@media screen and (max-width: 515px) {
+    .section-img img {
+    max-width: 50%;
+    height: auto;   
+    }
+}
 
 #contact {
     margin-bottom: 100px;
 }
 
 #contact .section-text{
-    font-size: 2vw;
+    font-size: 1.5rem;
 }
 
 
@@ -136,6 +149,6 @@ p {
 
 footer p{
     font-size: 1.5vw;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     text-align: center;
 }
