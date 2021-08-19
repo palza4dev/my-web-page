@@ -15,38 +15,45 @@ body {
 }
 
 header {
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    width: auto;
+    width: 100%;
+    height: auto;
     background-color: black;
 }
 
 #top-head {
-    height: 40px;
+    height: auto;
     width: 100%;
-    line-height: 40px;
-    margin: 20px 0 20px 0;
-    font-size: 2rem;
+    margin: 20px 0 10px 0;
+    font-size: 2.3vw;
     text-align: center;
+}
+
+#top-head a {
+    text-decoration: none;
+}
+
+#top-head a:visited {
+    color:white;
 }
 
 #top-nav {
     height: 40px;
     width: 100%;
-    border-bottom: 2px solid rgb(168, 165, 165);
+    border-bottom: 1px solid rgb(168, 165, 165);
 }
 
 #top-nav ul {
-    padding: 0 40px 0 40px;
+    padding: 0 100px 0 100px;
     display: flex;
     justify-content: space-evenly;
 }
 
 #top-nav ul li {
-    font-size: 1.2rem;
+    font-size: 1.8vw;
     list-style: none;
     line-height: 40px;
 }
@@ -54,37 +61,81 @@ header {
 
 #top-nav a {
     text-decoration: none;
+    color: white;
+
 }
 
 #top-nav  a:visited {
     color: white;
 }
 
-
-section {
-    padding-top: 180px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap:
+#top-nav a:hover {
+    transition: 0.3s;
+    font-size: larger;
 }
 
-.section-text {
-    width: 50%;
+
+section {
+    padding-top: 150px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 4.2vw;
 }
 
+h2 {
+    font-size: 2.5vw;
+    color:whitesmoke;
+}
 p {
-    font-size: 1.2rem;
+    font-size: 1.5vw;
+    color: #A1A1A6;
+}
+
+.section-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.section-img img{
+    max-width: 30%;
+    height: auto;
+    margin-top: 30px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+
+#contact {
+    margin-bottom: 100px;
 }
 
 #contact .section-text{
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
-img {
-    max-width: 50%;
-    height: auto;
+
+.contact-list {
+    margin-top: 20px;
+}
+.contact-list-links{
+    margin: 20px 0 20px 0;
+}
+
+.contact-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-list a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+footer p{
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    text-align: center;
 }
