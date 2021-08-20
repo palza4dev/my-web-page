@@ -99,10 +99,11 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+    height: auto;
 }
 
 .section-img img{
-    max-width: 33%;
+    width: 450px;
     height: auto;
     margin-top: 30px;
     border: 3px solid white;
@@ -111,7 +112,7 @@ p {
 
 @media screen and (max-width: 515px) {
     .section-img img {
-    max-width: 65%;
+    width: 300px;
     height: auto;
     }
 }
