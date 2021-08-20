@@ -104,7 +104,7 @@ p {
 
 .section-img img{
     width: 450px;
-    height: auto;
+    height: 450px;
     margin-top: 30px;
     border: 3px solid white;
     border-radius: 20px;
@@ -113,7 +113,7 @@ p {
 @media screen and (max-width: 515px) {
     .section-img img {
     width: 300px;
-    height: auto;
+    height: 300px;
     }
 }
 
