@@ -16,9 +16,6 @@ body {
     line-height: normal;
 }
 
-.container {
-}
-
 header {
     position: fixed;
     top: 0;
@@ -115,6 +112,7 @@ p {
 @media screen and (max-width: 515px) {
     .section-img img {
     max-width: 65%;
+    height: auto;
     }
 }
 
